@@ -1,0 +1,40 @@
+.skills__container {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.tool {
+	display: grid;
+	place-items: center;
+	margin: 2rem;
+	transition: var(--transition);
+}
+
+.logo:hover, .tool:hover {
+	color: var(--color-primary);
+
+}
+
+.tool:hover > .logo {
+	font-size: 5.5rem;
+}
+.logo {
+	font-size: 5rem;
+	transition: var(--transition);
+	margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	.skills__container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.skills__container {
+		grid-template-columns: repeat(2, 2fr)
+	}
+}

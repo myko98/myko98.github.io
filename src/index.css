@@ -17,16 +17,16 @@
 
 /* colours that we will be reusing throughout components */
 :root {
-	--color-bg: #1f1f38;
+	--color-bg: #161618;
 	--color-bg-variant: #2c2c6c;
 	--color-primary: #4db5ff;
 	--color-primary-variant: rgba(77,181,255,0.4);
-	--color-white: #fff;
+	--color-black: white;
 	--color-light: rgba(255,255,255,0.6);
 
 	--transition: all 400ms ease;
 
-	--container-width-lg: 75%;
+	--container-width-lg: 50%;
 	--container-width-md: 86%;
 	--container-width-ms: 90%;
 }
@@ -40,14 +40,19 @@ html {
 	display: none
 }
 
+
 body {
 	font-family: 'Poppins', sans-serif;
 	background: var(--color-bg);
-	color: var(--color-white);
+	color: var(--color-black);
 	/* make note of what line height does */
 	line-height: 1.7;
 }
 
+header {
+	position: relative;
+	overflow: hidden;
+}
 /* =============== General Styles ================ */
 .container {
 	width: var(--container-width-lg);
@@ -64,7 +69,7 @@ h1 {
 
 section {
 	margin-top: 8rem;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 /* 38:18 above each section there will be a h2 and h5 that has to be styled */
@@ -88,7 +93,7 @@ a {
 }
 
 a:hover {
-	color: var(--color-white)
+	color: var(--color-black)
 }
 
 .btn {
@@ -104,7 +109,7 @@ a:hover {
 }
 
 .btn:hover {
-	background: var(--color-white);
+	background: var(--color-black);
 	color: var(--color-bg);
 	border-color: transparent;
 }
