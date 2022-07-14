@@ -1,17 +1,23 @@
 import React from 'react'
 
-const PortfolioItem = ({ image, githubLink, demoLink, paragraph }) => {
+const PortfolioItem = ({ githubLink, demoLink, paragraph, title, tech }) => {
 
 	return (
 		<article className="portfolio__item">
 			<div className="portfolio__item-image"></div>
-			<img src={image} alt="" />
-			<h3>This is a portfolio item title</h3>
+			<h3>{title}</h3>
+			<p>{paragraph}</p>
+			<div className="portfolio__item-cta">
+				{tech.map((item) => (
+					<p className="tech">{item}</p>
+				))}
+			</div>
+
 			<div className="portfolio__item-cta">
 				<a href={githubLink} target="_blank ">Github</a>
 				<a href={demoLink} target="_blank">Live Demo</a>
 			</div>
-			<p>{paragraph}</p>
+			
 		</article>
 	)
 }

@@ -11,7 +11,6 @@ import { CgFigma } from 'react-icons/cg'
 const Skills = () => {
 	return (
 		<section id="experience">
-			<h5>About me</h5>
 			<h2>My Toolbox</h2>
 			<div className="container skills__container">
 

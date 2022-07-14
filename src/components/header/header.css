@@ -11,6 +11,8 @@ header {
 	position: relative;
 }
 
+
+
 /* ============== Call to Action CTA =============== */
 .cta {
 	margin-top: 2.5rem;
@@ -72,6 +74,9 @@ writing-mode: vertical-rl;
 	background: var(--color-primary);
 }
 
+.white {
+	color: white;
+}
 
 
 
@@ -89,7 +94,7 @@ writing-mode: vertical-rl;
 	}
 
 	.header__socials,
-	.scroll__down {
+	.scroll__down, .header__email {
 		display: none;
 	}
 }

@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio/portfolio'
 import Contact from './components/contact/contact'
 import HeaderSocials from './components/header/HeaderSocials'
 import SideEmail from './components/header/SideEmail'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
 			<Header />
 			<About />
 			<Nav />
-			<Skills />
 			<Portfolio />
+			<Skills />	
 			<Contact />
+			<Footer />
 			< HeaderSocials />
 			< SideEmail />
 		</div>

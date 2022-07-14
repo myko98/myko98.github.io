@@ -128,9 +128,20 @@ img {
 
 /* ==================== Media Queries (med devices) ===================*/
 
+@media screen and (max-width: 1490px) {
+	h1 {
+		font-size: 2rem;
+	}
+}
+
+
 @media screen and (max-width: 1024px) {
 	.container {
 		width: var(--container-width-md)
+	}
+
+	h1 {
+		font-size: 1.5rem;
 	}
 
 	section {

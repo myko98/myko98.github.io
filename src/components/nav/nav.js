@@ -16,8 +16,8 @@ const Nav = () => {
 		<nav>
 			<a href="#" onClick={() => setActive("#")} className={active == "#" ? "active" : ""}><FaHome /></a>
 			<a href="#about" onClick={() => setActive("#about")} className={active === "#about" ? "active" : ""}><AiOutlineUser /></a>
-			<a href="#experience" onClick={() => setActive("#experience")} className={active === "#experience" ? "active" : ""}><GoTools /></a>
 			<a href="#portfolio" onClick={() => setActive("#portfolio")} className={active === "#portfolio" ? "active" : ""}><ImBooks /></a>
+			<a href="#experience" onClick={() => setActive("#experience")} className={active === "#experience" ? "active" : ""}><GoTools /></a>
 			{/* <a href="#portfolio"></a> */}
 			<a href="#contact" onClick={() => setActive("#contact")} className={active === "#contact" ? "active" : ""}><BiMessageRoundedAdd /></a>
 		</nav>
