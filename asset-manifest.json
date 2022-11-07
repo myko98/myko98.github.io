@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "https://myko98.github.io/mykowebsite/static/css/main.5f2b2bc2.css",
+    "main.js": "https://myko98.github.io/mykowebsite/static/js/main.c7aeb489.js",
+    "static/media/resize2.png": "https://myko98.github.io/mykowebsite/static/media/resize2.4b7441bcde42de78d059.png",
+    "static/media/cat2.jpg": "https://myko98.github.io/mykowebsite/static/media/cat2.a1ab8afc311beae2186c.jpg",
+    "static/media/headshot.jpg": "https://myko98.github.io/mykowebsite/static/media/headshot.e3abe1ce829eb5718ac5.jpg",
+    "static/media/guts.jpg": "https://myko98.github.io/mykowebsite/static/media/guts.7330ec237b02ec7df8fe.jpg",
+    "static/media/resume.pdf": "https://myko98.github.io/mykowebsite/static/media/resume.3699104db3559d34ce7f.pdf",
+    "index.html": "https://myko98.github.io/mykowebsite/index.html",
+    "main.5f2b2bc2.css.map": "https://myko98.github.io/mykowebsite/static/css/main.5f2b2bc2.css.map",
+    "main.c7aeb489.js.map": "https://myko98.github.io/mykowebsite/static/js/main.c7aeb489.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f2b2bc2.css",
+    "static/js/main.c7aeb489.js"
+  ]
+}
