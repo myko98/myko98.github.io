@@ -40,7 +40,7 @@ const About = () => {
 					</div> */}
 
 					<div className="about__content">
-						<p> I'm a recent graduate from the University of Waterloo with a bachelor of Mathematical Economics. After trying out a bunch of business roles I realized that I wanted to do something more creative and stumulating. I rediscoved my love for programming during COVID and here I am. I am currently doing an accelerated CS degree at Carleton University.</p>
+						<p> I'm a recent graduate from the University of Waterloo with a bachelor of Mathematical Economics. After trying out a bunch of business roles I realized that I wanted to do something more creative and stimulating. I rediscovered my love for programming during COVID and here I am. I am currently doing an accelerated CS degree at Carleton University.</p>
 						<p> Other than coding, I spend my time doing calisthenics, whipping up new healthy recipes and hanging out with my two cats. </p>
 					</div>
 					<a href="#contact" className="btn btn-primary">Let's talk</a>

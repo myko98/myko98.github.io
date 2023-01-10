@@ -18,7 +18,7 @@ const Header = () => {
 				<br/>
 				<h1 className="text-light">Currently, I'm a <span className="white">frontend developer</span> at <span className="white"><a href="https://cheffery.ca/" target="__blank">Cheffery</a></span>, a <span className="white">food startup</span> that's aiming to <span className="white">change</span> the way <span className="white">chefs interact with customers</span>.</h1>
 				
-				<h1 className="text-light">I’m looking to <span className="white">level up my career</span> with any <span className="white">frontend</span> or <span className="white">fullstack</span> opportunities. Lets <span className="white">connect</span> !! </h1>
+				<h1 className="text-light">I’m looking to <span className="white">level up my career</span> with any <span className="white">frontend</span> or <span className="white">fullstack</span> opportunities. Let's <span className="white">connect</span> !! </h1>
 				<CTA />
 				{/* <div className="me">
 					<img src={guts} alt="struggler" />
