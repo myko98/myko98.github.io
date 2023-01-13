@@ -16,7 +16,7 @@ const portfolioProjects = [
 		title: "Beer Store Inventory",
 		githubLink: "https://github.com/myko98/beerStore",
 		demoLink: "https://beerstorefridge.herokuapp.com/",
-		paragraph: "Allows new employees find beer information as well as provide a live inventory management tracker",
+		paragraph: "Web app that  assists new employees by providing brewery/ beer brand information as well as live inventory management database created using MongoDB",
 		tech: ["React", "MongoDB"]
 	},
 	{
